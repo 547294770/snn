@@ -1,9 +1,0 @@
-<!--index.wxml-->
-<view class='container'>
-<view class='mt10 title'><text>{{titleText}}</text></view>
-<view class='mt10'><text>{{nameText}}</text></view>
-<view class='mt10'><input type='String' class='text' placeholder='请输入您的名字' bindinput="xingmingText" value='{{xingming}}'></input></view>
-<view class='mt10'><text>{{schoolText}}</text></view>
-<view class='mt10'><input type='String' class='text' placeholder='请输入落榜学校' bindinput="xuexiaoText" value='{{xuexiao}}'></input></view>
-<view class='mt10 buttoncss-view'><button class='buttoncss' bindtap='clickMe'>{{buttonText}}</button></view>
-</view>
