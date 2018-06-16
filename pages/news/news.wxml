@@ -1,0 +1,9 @@
+<!--pages/news/news.wxml-->
+ <view wx:for="{{news}}" class='news-item'>
+  <view class='news-item-title'>{{item.title}}</view>
+  <view class='news-item-param'>
+  <text>来源：</text><text class='pdt10'>{{item.comefrom}}</text>
+  <text>阅读：</text><text>{{item.readcount}}</text>
+  <text>日期：</text><text>{{item.date}}</text>
+  </view>
+</view>

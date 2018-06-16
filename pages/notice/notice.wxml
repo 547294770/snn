@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view style='height:100%'>
+
+<!-- <view class='notice-content'><input type='String' class='input-text'></input>同学：</view>
+<view class='notice-content'>遗憾通知，你因为一分之差，没有被清华大学录取。希望你不要气馁，积极学习，争取更大的成功。</view> -->
+<canvas canvas-id='canvas01' class='canvas'></canvas>
+<view class='text text2'>把名字改成你好友的名字，给他发一份有趣的落榜通知书吧。珍贵的友谊需要常联系！</view>
+<view class='text text3'>小程序出自“编程牛人”公众号，关注获取海量IT资料。</view>
+
+ <!-- <view class='qcodeview'><image src='{{srcqrcode}}' mode='aspectFit' class='qrcode'></image></view>  -->
+</view>
